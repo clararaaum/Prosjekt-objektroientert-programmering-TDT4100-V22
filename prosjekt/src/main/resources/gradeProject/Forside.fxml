@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="488.0" styleClass="anchor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gradeProject.ForsideController">
+   <children>
+      <Label layoutX="131.0" layoutY="28.0" prefHeight="35.0" prefWidth="225.0" text="KARAKTERSYSTEM">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="header" contentDisplay="CENTER" layoutX="118.0" layoutY="81.0" prefHeight="35.0" prefWidth="260.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button fx:id="makeDiplomaButton" layoutX="110.0" layoutY="370.0" mnemonicParsing="false" onAction="#onMakeDiploma" text="Skriv inn karakterer" />
+      <Button fx:id="lookUpDipButton" layoutX="255.0" layoutY="370.0" mnemonicParsing="false" onAction="#onLookUpDiploma" prefHeight="25.0" prefWidth="121.0" text="Søk opp vitnemål" />
+      <ImageView fitHeight="200.0" fitWidth="349.0" layoutX="111.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@study.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
